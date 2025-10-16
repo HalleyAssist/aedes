@@ -108,7 +108,6 @@
 		"fastfall": "^1.5.1",
 		"fastparallel": "^2.4.1",
 		"fastseries": "^2.0.0",
-		"hyperid": "^3.3.0",
 		"mqemitter": "^7.1.0",
 		"mqtt-packet": "^9.0.2",
 		"retimer": "^4.0.0",
