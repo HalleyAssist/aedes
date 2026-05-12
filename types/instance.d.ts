@@ -91,6 +91,7 @@ export class Aedes extends EventEmitter {
   connectedClients: Readonly<number>
   closed: Readonly<boolean>
   brokers: Readonly<Brokers>
+  clients: Readonly<{ [clientId: string]: Client }>
 
   constructor (option?: AedesOptions)
   handle: (stream: Connection, request?: IncomingMessage) => Client
